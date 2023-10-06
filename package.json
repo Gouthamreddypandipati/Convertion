@@ -1,0 +1,23 @@
+{
+  "name": "finmo_assignment",
+  "version": "1.0.0",
+  "description": "basic bank account creation",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "Goutham"
+  ],
+  "author": "Goutham",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.4",
+    "nodemon": "^3.0.1"
+  }
+}
